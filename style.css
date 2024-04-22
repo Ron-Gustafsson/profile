@@ -1,0 +1,93 @@
+/* Yleiset tyylimääritykset */
+
+/* Asetetaan sivulle käytettävä fontti ja määritellään, että sivu alkaa ylhäältä ja vasemmalta */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Yläosa */
+header {
+    text-align: center; /* Teksti keskitetään */
+    padding: 20px; /* Lisätään tilaa ylä- ja alapuolelle */
+    background-color: #f0f0f0; /* Taustaväri */
+}
+
+/* Osiot */
+section {
+    padding: 20px; /* Lisätään tilaa ylä- ja alapuolelle */
+}
+
+/* Otsikot */
+h2 {
+    color: #333; /* Otsikoiden tekstiväri */
+}
+
+/* Luettelot */
+ul {
+    list-style-type: none; /* Poistetaan luettelon numerot */
+    padding: 0; /* Poistetaan sisätila */
+}
+
+/* Luettelon kohdat */
+li {
+    margin-bottom: 10px; /* Lisätään tilaa alapuolelle */
+}
+
+/* Taulukot */
+table {
+    border-collapse: collapse; /* Yhdistetään taulukon reunat */
+    width: 100%; /* Täyttää taulukon koko leveyden */
+}
+
+/* Taulukon otsikot ja solut */
+th, td {
+    padding: 8px; /* Lisätään tilaa solujen sisäpuolelle */
+    text-align: left; /* Teksti asetetaan vasempaan reunaan */
+    border-bottom: 1px solid #ddd; /* Alareunaan harmaa viiva */
+}
+
+/* Lomakkeet */
+form {
+    margin-top: 20px; /* Lisätään tilaa yläpuolelle */
+}
+
+/* Lomakkeen elementit */
+label, input, textarea {
+    display: block; /* Asetetaan elementit pystysuuntaan (yksi alle toisen) */
+    margin-bottom: 10px; /* Lisätään tilaa alapuolelle */
+}
+
+/* Lähetä-painike */
+input[type="submit"] {
+    padding: 10px 20px; /* Napille lisätään tilaa sisälle */
+    background-color: #4CAF50; /* Taustaväri */
+    color: white; /* Tekstiväri */
+    border: none; /* Poistetaan reunaviiva */
+    cursor: pointer; /* Osoitin muuttuu käsiksi napin päällä */
+}
+
+/* Lähetä-painikkeen hover-tila */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Taustavärin vaihto hover-tilassa */
+}
+
+/* Alatunniste */
+footer {
+    text-align: center; /* Teksti keskitetään */
+    padding: 20px; /* Lisätään tilaa ylä- ja alapuolelle */
+    background-color: #333; /* Taustaväri */
+    color: #fff; /* Tekstin väri */
+}
+
+/* Alatunnisteen linkit */
+footer a {
+    color: #fff; /* Linkkien tekstiväri */
+    text-decoration: none; /* Poistetaan linkkien alleviivaus */
+}
+
+/* Alatunnisteen linkkien hover-tila */
+footer a:hover {
+    text-decoration: underline; /* Linkin alleviivaus hover-tilassa */
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <!-- Määritetään dokumentin merkistö ja kieliasetus -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Asetetaan sivun otsikko -->
+    <title>Ron Gustafsson - CV</title>
+    <!-- Liitetään ulkoinen CSS-tiedosto -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sivun yläosa -->
+    <header>
+        <!-- Otsikko -->
+        <h1>Ron Gustafsson</h1>
+        <!-- Työnimike -->
+        <p id="position">Ohjelmistokehittäjä</p>
+    </header>
+
+    <!-- Yhteenveto-osio -->
+    <section>
+        <!-- Otsikko -->
+        <h2>Yhteenveto</h2>
+        <!-- Yhteenvetoteksti ja kuva -->
+        <p class="summary">
+            <img src="https://i.ibb.co/L0nYHnz/Profiilikuva-pienempi-kopio.jpg" alt="Profiilikuva" width="120px">
+            Deadlinelle keskittynyt ohjelmistokehittäjä laajalla kokemuksella. 
+            Vahva track record ratkaisujen suunnittelussa, jotka ylittävät asiakkaan odotukset.
+        </p>
+    </section>
+
+    <!-- Työkokemus-osio -->
+    <section>
+        <!-- Otsikko -->
+        <h2>Työkokemus</h2>
+        <!-- Luettelo työkokemuksista -->
+        <ul id="experience">
+            <li><b>Vedonlyöntiasiantuntija - Freelancer</b> | 2011 - Nykyhetki</li>
+            <li><b>Kiinteistönvälittäjä, Myyntineuvottelija - Habita</b> | 2010 - 2011</li>
+            <li><b>Tuoteryhmäpäällikkö, Myyjä - HOK-Elanto</b> | 2002 - 2009</li>
+        </ul>
+    </section>
+
+    <!-- Koulutus-osio -->
+    <section>
+        <!-- Otsikko -->
+        <h2>Koulutus</h2>
+        <!-- Luettelo koulutuksista -->
+        <ul id="education">
+            <li><b>Tieto- ja viestintätekniikka, Ohjelmistokehittäjä - Hyria</b> | 2022 - Nykyhetki</li>
+            <li><b>Ruokamestari Erikoisammattitutkinto - Valmennus</b> | 2007 - 2008</li>
+        </ul>
+    </section>
+
+    <!-- Taito-osio -->
+    <section>
+        <!-- Otsikko -->
+        <h2>Taidot</h2>
+        <!-- Taulukko taidoista ja niiden tasoista -->
+        <table id="skills">
+            <tr><th>Taito</th><th>Taso</th></tr>
+            <tr><td>HTML</td><td>Keskitaso</td></tr>
+            <tr><td>CSS</td><td>Keskitaso</td></tr>
+            <tr><td>JavaScript</td><td>Keskitaso</td></tr>
+            <tr><td>Python</td><td>Keskitaso</td></tr>
+            <tr><td>Windows</td><td>Asiantuntija</td></tr>
+            <tr><td>Linux</td><td>Keskitaso</td></tr> 
+        </table>
+    </section>
+
+    <!-- Yhteydenottolomake-osio -->
+    <section>
+        <!-- Otsikko -->
+        <h2>Yhteydenottolomake</h2>
+        <!-- Yhteydenottolomake -->
+        <form id="contact-form">
+            <label for="name">Nimi:</label>
+            <input placeholder="Nimi" id="name" type="text" required><br>
+            <label for="email">Sähköposti:</label>
+            <input placeholder="Sähköposti" id="email" type="email" required><br>
+            <textarea placeholder="Viesti" required></textarea><br>
+            <input type="submit" value="LÄHETÄ">
+        </form>   
+    </section>
+
+    <!-- Alatunniste-osio -->
+    <footer>
+        <!-- Otsikko -->
+        <h2>Yhteystiedot</h2>
+        <!-- Luettelo yhteystiedoista -->
+        <ul id="contacts">
+            <li><a href="mailto:ron.gustafsson@gmail.com">Sähköposti</a></li>
+            <li><a href="https://www.linkedin.com/in/ron-gustafsson">LinkedIn</a></li>
+            <li><a href="https://juhlavaanarkeen.blogspot.com/">Blogi: Juhlavaan arkeen</a></li>
+        </ul>
+        <!-- Tekijänoikeusteksti -->
+        <p id="copyright">Tekijänoikeus &copy; Ron Gustafsson</p>
+    </footer>
+</body>
+</html>
+
